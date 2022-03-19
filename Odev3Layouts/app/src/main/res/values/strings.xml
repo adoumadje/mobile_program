@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Odev3 Layouts</string>
+
+    <string name="descTitle">Description</string>
+
+    <string name="prov1_name">Provence Name: \nKarabuk</string>
+    <string name="prov2_name">Provence Name: \nAnkara</string>
+    <string name="prov3_name">Provence Name: \nIstanbul</string>
+
+    <string name="prov1_plate">Licence Plate: \n78</string>
+    <string name="prov2_plate">Licence Plate: \n06</string>
+    <string name="prov3_plate">Licence Plate: \n34</string>
+
+    <string name="prov1_des">Karabuk Province is a landlocked province in the northern part of Anatolia (northern central Turkey), located about 200 km (124 mi) north of Ankara, 115 km (71 mi) away from Zonguldak and 113 km (70 mi) away from Kastamonu. In 2010 it had a population of 227,610. The main city is Karabük which is located about 100 km (62 mi) south of the Black Sea coast.</string>
+    <string name="prov2_des">Ankara historically known as Ancyra and Angora, is the capital of Turkey. Located in the central part of Anatolia, the city has a population of 5.1 million in its urban center and over 5.7 million in Ankara Province, making it Turkey\'s second-largest city after Istanbul.</string>
+    <string name="prov3_des">Istanbul formerly known as Constantinople, is the largest city in Turkey, serving as the country\'s economic, cultural and historic hub. The city straddles the Bosporus strait, lying in both Europe and Asia, and has a population of over 15 million residents, comprising 19% of the population of Turkey.Istanbul is the most populous European city, and the world\'s 15th-largest city.</string>
+</resources>

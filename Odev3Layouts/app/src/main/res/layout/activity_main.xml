@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="311dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/province1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLeft"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="100dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_caret_left_solid" />
+
+        <ImageButton
+            android:id="@+id/imageButtonRight"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="100dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_caret_right_solid" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/province_name"
+            android:layout_width="189dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/prov1_name"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/licence_plate"
+            android:layout_width="164dp"
+            android:layout_height="82dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/prov1_plate"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:text="@string/prov1_des"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/descTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/description"
+            android:layout_marginBottom="10dp"
+            android:text="@string/descTitle"
+            android:textSize="24sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+</LinearLayout>
