@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_Call"
+        android:title="call"
+        android:icon="@drawable/ic_baseline_phone_enabled_24"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_NewContact"
+        android:title="New Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_DeleteContact"
+        android:title="Delete Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_UpdateContact"
+        android:title="Update Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_Exit"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>
